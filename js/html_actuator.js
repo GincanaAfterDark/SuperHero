@@ -116,7 +116,6 @@ HTMLActuator.prototype.updateScore = function (score) {
   this.score = score;
 
   this.scoreContainer.textContent = this.score;
-  document.getElementById('scouter-score').textContent = this.score;
 
   if (difference > 0) {
     var addition = document.createElement("div");
